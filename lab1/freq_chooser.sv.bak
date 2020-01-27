@@ -1,0 +1,14 @@
+module freq_chooser(sw0,sw1,sw2,sw3,out);
+
+	parameter freq0 = ;
+	parameter freq1 = ;
+	parameter freq2 = ;
+	parameter freq3 = ;
+	parameter freq4 = ;
+	parameter freq5 = ;
+	parameter freq6 = ;
+	parameter freq7 = ;
+	
+	input logic sw1,sw2,sw3,sw0;
+	output logic [31:0] out;
+	

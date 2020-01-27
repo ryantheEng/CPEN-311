@@ -1,0 +1,227 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Basic_Organ_Solution_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/Users/rleeu/Documents/Year3_local/CPEN\ 311/lab1_template_de1soc/lab1_template_de1soc {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/doublesync.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:06:01 on Jan 23,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc" C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/doublesync.v 
+# -- Compiling module doublesync
+# 
+# Top level modules:
+# 	doublesync
+# End time: 15:06:01 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/rleeu/Documents/Year3_local/CPEN\ 311/lab1_template_de1soc/lab1_template_de1soc {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/generate_arbitrary_divided_clk32.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:06:01 on Jan 23,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc" C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/generate_arbitrary_divided_clk32.v 
+# -- Compiling module Generate_Arbitrary_Divided_Clk32
+# 
+# Top level modules:
+# 	Generate_Arbitrary_Divided_Clk32
+# End time: 15:06:02 on Jan 23,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/rleeu/Documents/Year3_local/CPEN\ 311/lab1_template_de1soc/lab1_template_de1soc {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/scope_capture.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:06:02 on Jan 23,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc" C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/scope_capture.v 
+# -- Compiling module scope_capture
+# 
+# Top level modules:
+# 	scope_capture
+# End time: 15:06:02 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/rleeu/Documents/Year3_local/CPEN\ 311/lab1_template_de1soc/lab1_template_de1soc {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/lcd_scope_encapsulated_pacoblaze_wrapper.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:06:02 on Jan 23,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc" C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/lcd_scope_encapsulated_pacoblaze_wrapper.v 
+# -- Compiling module LCD_Scope_Encapsulated_pacoblaze_wrapper
+# 
+# Top level modules:
+# 	LCD_Scope_Encapsulated_pacoblaze_wrapper
+# End time: 15:06:02 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/rleeu/Documents/Year3_local/CPEN\ 311/lab1_template_de1soc/lab1_template_de1soc {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:06:02 on Jan 23,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc" C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.v 
+# -- Compiling module Basic_Organ_Solution
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.v(380): (vlog-2730) Undefined variable: 'speed_up_event_trigger'.
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.v(385): (vlog-2730) Undefined variable: 'speed_down_event_trigger'.
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.v(392): (vlog-2730) Undefined variable: 'speed_up_event_trigger'.
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.v(393): (vlog-2730) Undefined variable: 'speed_down_event_trigger'.
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.v(443): (vlog-2388) 'scope_sampling_clock_count' already declared in this scope (Basic_Organ_Solution).
+# 
+# End time: 15:06:02 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/altera/14.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Basic_Organ_Solution_run_msim_rtl_verilog.do line 12
+# C:/altera/14.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/Users/rleeu/Documents/Year3_local/CPEN\ 311/lab1_template_de1soc/lab1_template_de1soc {C:/Users/rleeu/Documents/Year3_l..."
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:06:48 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv 
+# -- Compiling module clock_divide
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(23): (vlog-2110) Illegal reference to net "outclk".
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(31): (vlog-2110) Illegal reference to net "outclk".
+# 
+# End time: 15:06:48 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:06:50 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv 
+# -- Compiling module clock_divide
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(23): (vlog-2110) Illegal reference to net "outclk".
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(31): (vlog-2110) Illegal reference to net "outclk".
+# 
+# End time: 15:06:50 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:40:32 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv 
+# -- Compiling module clock_divide
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(23): (vlog-2110) Illegal reference to net "outclk".
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(31): (vlog-2110) Illegal reference to net "outclk".
+# 
+# End time: 15:40:32 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:40:39 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.sv 
+# -- Compiling module Basic_Organ_Solution
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.sv(380): (vlog-2730) Undefined variable: 'speed_up_event_trigger'.
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.sv(385): (vlog-2730) Undefined variable: 'speed_down_event_trigger'.
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.sv(392): (vlog-2730) Undefined variable: 'speed_up_event_trigger'.
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.sv(393): (vlog-2730) Undefined variable: 'speed_down_event_trigger'.
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/Basic_Organ_Solution.sv(443): (vlog-2388) 'scope_sampling_clock_count' already declared in this scope (Basic_Organ_Solution).
+# 
+# End time: 15:40:39 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/freq_chooser.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:40:46 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/freq_chooser.sv 
+# -- Compiling module freq_chooser
+# 
+# Top level modules:
+# 	freq_chooser
+# End time: 15:40:46 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/led_move.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:40:50 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/led_move.sv 
+# -- Compiling module led_move
+# 
+# Top level modules:
+# 	led_move
+# End time: 15:40:50 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:40:55 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv 
+# -- Compiling module clock_divide
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(23): (vlog-2110) Illegal reference to net "outclk".
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(31): (vlog-2110) Illegal reference to net "outclk".
+# 
+# End time: 15:40:55 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# Load canceled
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:47:11 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv 
+# -- Compiling module clock_divide
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(21): (vlog-2110) Illegal reference to net "outclk".
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(29): (vlog-2110) Illegal reference to net "outclk".
+# 
+# End time: 15:47:11 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:56:12 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv 
+# -- Compiling module clock_divide
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(21): (vlog-2110) Illegal reference to net "outclk".
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(29): (vlog-2110) Illegal reference to net "outclk".
+# 
+# End time: 15:56:12 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:56:13 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv 
+# -- Compiling module clock_divide
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(21): (vlog-2110) Illegal reference to net "outclk".
+# 
+# ** Error: C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/clck_divider.sv(29): (vlog-2110) Illegal reference to net "outclk".
+# 
+# End time: 15:56:13 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/freq_chooser.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:56:29 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/freq_chooser.sv 
+# -- Compiling module freq_chooser
+# 
+# Top level modules:
+# 	freq_chooser
+# End time: 15:56:29 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/freq_chooser.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:56:30 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/freq_chooser.sv 
+# -- Compiling module freq_chooser
+# 
+# Top level modules:
+# 	freq_chooser
+# End time: 15:56:30 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Load canceled
+vlog -reportprogress 300 -work work {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/freq_chooser.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:57:20 on Jan 23,2020
+# vlog -reportprogress 300 -work work C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/freq_chooser.sv 
+# -- Compiling module freq_chooser
+# 
+# Top level modules:
+# 	freq_chooser
+# End time: 15:57:20 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Load canceled
+restart -f
+# No Design Loaded!
+cd {C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc}
+# reading C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini

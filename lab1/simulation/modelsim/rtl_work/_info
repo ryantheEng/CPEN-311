@@ -1,0 +1,154 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/simulation/modelsim
+vdoublesync
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+!s110 1579820761
+!i10b 1
+!s100 Z?>]QY8_oT?eBi4:L4kQf3
+IG0cMcEUVKeG[XY[8iOLnK2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 doublesync_v_unit
+S1
+R0
+Z3 w1579737248
+8C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/doublesync.v
+FC:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/doublesync.v
+L0 1
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1579820761.879000
+!s107 C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/doublesync.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc|C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/doublesync.v|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work {+incdir+C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc}
+vfreq_chooser
+R1
+!s110 1579823840
+!i10b 1
+!s100 glM`oE@f0JZD2]NSanInd3
+I0Ibj:3QX8875zVl6X^mO:3
+R2
+!s105 freq_chooser_sv_unit
+S1
+R0
+w1579819878
+8C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/freq_chooser.sv
+FC:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/freq_chooser.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1579823840.491000
+!s107 C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/freq_chooser.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/freq_chooser.sv|
+!i113 1
+Z7 o-work work
+vGenerate_Arbitrary_Divided_Clk32
+R1
+Z8 !s110 1579820762
+!i10b 1
+!s100 3kAZWeG>XTgV4^HfXONd62
+IdSjKeMG9eRfa85fmhh<Z^0
+R2
+!s105 generate_arbitrary_divided_clk32_v_unit
+S1
+R0
+R3
+8C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/generate_arbitrary_divided_clk32.v
+FC:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/generate_arbitrary_divided_clk32.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1579820761.989000
+!s107 C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/generate_arbitrary_divided_clk32.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc|C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/generate_arbitrary_divided_clk32.v|
+!i113 1
+R5
+R6
+n@generate_@arbitrary_@divided_@clk32
+vLCD_Scope_Encapsulated_pacoblaze_wrapper
+R1
+R8
+!i10b 1
+!s100 JIe=a_:Ya>]P<lLM^a?J<1
+I6IG03J1o8WBM6ShYU;o<f1
+R2
+!s105 lcd_scope_encapsulated_pacoblaze_wrapper_v_unit
+S1
+R0
+R3
+8C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/lcd_scope_encapsulated_pacoblaze_wrapper.v
+FC:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/lcd_scope_encapsulated_pacoblaze_wrapper.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1579820762.207000
+!s107 C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/lcd_scope_encapsulated_pacoblaze_wrapper.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc|C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/lcd_scope_encapsulated_pacoblaze_wrapper.v|
+!i113 1
+R5
+R6
+n@l@c@d_@scope_@encapsulated_pacoblaze_wrapper
+vled_move
+R1
+!s110 1579822850
+!i10b 1
+!s100 zBhli`8]amS?IbP;d1:8g1
+Il:bNlm_>Dg=k@oHRhn1X`3
+R2
+!s105 led_move_sv_unit
+S1
+R0
+w1579819590
+8C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/led_move.sv
+FC:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/led_move.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1579822850.650000
+!s107 C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/led_move.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/led_move.sv|
+!i113 1
+R7
+vscope_capture
+R1
+R8
+!i10b 1
+!s100 0:k<2>J[KH6zd_UB;N6lj0
+IPfhQO>3?AV]HWL85L[ZD90
+R2
+!s105 scope_capture_v_unit
+S1
+R0
+R3
+8C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/scope_capture.v
+FC:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/scope_capture.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1579820762.098000
+!s107 C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/scope_capture.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc|C:/Users/rleeu/Documents/Year3_local/CPEN 311/lab1_template_de1soc/lab1_template_de1soc/scope_capture.v|
+!i113 1
+R5
+R6

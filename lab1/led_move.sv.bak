@@ -1,0 +1,28 @@
+
+module led_move(LEDR,inclk);
+	output logic inclk;
+	output logic [9:0] LEDR;
+	
+	logic switch = 0;
+	
+
+	always@(posedge inclk)
+		begin 
+			if(LEDR == 10'b0010000000)
+				begin 
+					switch <= ~switch;
+				end
+			else if (LEDR == 10'b0000000001)
+				begin
+						switch <= ~switch;
+				end
+			else if(switch)
+				begin
+					LEDR = LEDR >> 1;
+				end
+			else 
+				begin 
+					LEDR = LEDR << 1;
+				end				
+		end
+endmodule
